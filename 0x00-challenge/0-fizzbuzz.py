@@ -13,7 +13,6 @@ def fizzbuzz(n):
     - For numbers which are multiples of both three and five print "FizzBuzz".
     """
     if n < 1:
-        print("n is less than 1")
         return
 
     tmp_result = []
@@ -27,7 +26,6 @@ def fizzbuzz(n):
         else:
             tmp_result.append(str(i))
     print(" ".join(tmp_result))
-    print("FizzBuzz is done")
 
 
 if __name__ == '__main__':
@@ -39,4 +37,3 @@ if __name__ == '__main__':
 
     number = int(sys.argv[1])
     fizzbuzz(number)
-    print("End of game")
